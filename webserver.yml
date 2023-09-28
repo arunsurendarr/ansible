@@ -4,4 +4,4 @@
   tasks:
   - name: retriving the hostname
     debug:
-     msg: "{{ ansible_hostname }}"
+     msg: "{{ ansible_hostname }} {{ site }} "
