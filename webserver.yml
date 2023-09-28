@@ -1,0 +1,7 @@
+---
+- name: Retrieving the info
+  hosts: all
+  tasks:
+  - name: retriving the hostname
+    debug:
+     msg: "{{ ansible_hostname }}"
